@@ -1,0 +1,193 @@
+/* owl */
+
+
+
+
+
+
+
+
+/*============================================ Global styles ==============================================*/
+
+#main table {
+    width: 70%;
+}
+
+#main table th {
+    font-family: Dosis;
+    font-size: 16px;
+}
+
+#main {
+    font-family: Lato;
+}
+
+.container {
+    width: 80%;
+}
+
+#main i span {
+    font-size: 50px;
+    color: #069588;
+}
+
+/* #home-message .container {
+    background-color: #009688;
+    opacity: .8;
+} */
+
+
+#home-message {
+    font-family: 'Lato', 'Helvetica', 'sans-serif';
+    background-image:
+        linear-gradient(rgba(29, 169, 157, .8),
+        rgba(29, 169, 157, .8)),
+        url("../images/formbg.jpg");
+    background-repeat: no-repeat;
+}
+
+#home-message .card-panel {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#home-message form .input-field {
+    padding-top: 15px;
+}
+
+#home-message {
+    color: white;
+}
+
+#home-message form {
+    width: 100%;
+    /* height: 100%; */
+}
+
+#home-message .input-field>label {
+    color: white !important;
+}
+
+#home-message textarea {
+    font-family: Lato;
+    font-size: 15px;
+    color: white;
+}
+
+/*============================================== Navigation ================================================*/
+nav {
+    height: 66px;
+    border-bottom: 2px solid #009688;
+    box-shadow: none !important;
+}
+
+nav ul li.active a {
+    color: #009688 !important;
+}
+
+nav .section {
+    padding-top: 0px;
+}
+
+.brand-logo img {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    /* padding-left: 60px; */
+    width: 70%;
+    /* position: relative;
+    left: 50px; */
+}
+
+#nav-mobile {
+    /* padding-right: 160px; */
+
+}
+
+nav ul a {
+    color: gray;
+}
+
+/* ================================================ Home ===================================================*/
+#main {
+    background-color: #eee;
+}
+
+video {
+    width: 100%;
+    position: fixed;
+}
+
+
+/*================================================== Slider =================================================*/
+#home-slider {
+    font-family: Dosis;
+}
+
+#home-slider .carousel {
+    position: relative;
+    bottom: 25px;
+}
+
+#home-slider .card .card-image .card-title {
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#home-slider .carousel .carousel-item {
+    width: 500px;
+}
+
+/*============================================== Footer ====================================================*/
+#footer li {
+    display: inline-flex;
+    padding-bottom: 15px;
+}
+
+#footer i {
+    padding-right: 10px;
+}
+
+
+#footer {
+    font-family: Lato;
+}
+
+#footer h4 {
+    font-family: Dosis;
+    font-size: 16px;
+}
+
+#footer {
+    font-family: Lato;
+}
+
+
+#questions {
+    padding-right: 0px;
+}
+
+/* ============================================ Media Queries ============================================= */
+/* Mobile phone */
+@media only screen and (max-width: 600px) {
+    #main table {
+        width: 100%;
+    }
+
+    .parallax-container {
+        height: 165px;
+    }
+
+    .brand-logo img {
+        width: 56%;
+    }
+
+    #home-slider .carousel .carousel-item {
+        width: 450px;
+    }
+
+
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);

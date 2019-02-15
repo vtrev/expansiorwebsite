@@ -8,6 +8,17 @@
 
 
 /*============================================ Global styles ==============================================*/
+#join-main {
+    background: #fafafa !important;
+}
+
+#how-parallax {
+    height: 620px;
+}
+
+/* .spacer {
+    height: 66px;
+} */
 
 #main table {
     width: 70%;
@@ -20,6 +31,7 @@
 
 #main {
     font-family: Lato;
+
 }
 
 .container {
@@ -73,6 +85,25 @@
     color: white;
 }
 
+
+#main2 p,
+#intro-team p,
+#how-main p {
+    font-family: Dosis;
+    color: #383838;
+    font-size: 16px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#main2 h4,
+#intro-team h5,
+#intro-team h4,
+#how-main h4 {
+    font-family: Dosis;
+    color: black;
+}
+
 /*============================================== Navigation ================================================*/
 nav {
     height: 66px;
@@ -107,7 +138,8 @@ nav ul a {
 }
 
 /* ================================================ Home ===================================================*/
-#main {
+#main,
+#intro-team {
     background-color: #eee;
 }
 
@@ -152,6 +184,8 @@ video {
 
 #footer {
     font-family: Lato;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 #footer h4 {

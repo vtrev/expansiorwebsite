@@ -1,13 +1,52 @@
 /* owl */
 
-
-
-
-
-
-
-
 /*============================================ Global styles ==============================================*/
+#refer-ligitimacy img {
+    height: 150px;
+    width: 100%;
+}
+
+#contact-form {
+    /* width: 95%; */
+}
+
+
+#contact,
+.find-us h5,
+#contact-form,
+#refer-ligitimacy,
+#refer-main {
+    font-family: Overpass, Dosis;
+}
+
+#contact p {
+    font-family: Lato;
+}
+
+#cards .card {
+    width: 70%;
+}
+
+#cards .card h4 {
+    font-family: Overpass, Dosis;
+    ;
+}
+
+#cards .card h5 {
+    color: #7cbd1e;
+    font-family: Lato;
+}
+
+#cards .card p {
+    font-size: 17px;
+    font-family: Lato;
+}
+
+#cards .card-content {
+    height: 250px;
+}
+
+
 #join-main {
     background: #fafafa !important;
 }
@@ -25,7 +64,7 @@
 }
 
 #main table th {
-    font-family: Dosis;
+    font-family: Overpass, Dosis;
     font-size: 16px;
 }
 
@@ -89,7 +128,7 @@
 #main2 p,
 #intro-team p,
 #how-main p {
-    font-family: Dosis;
+    font-family: Overpass, Dosis;
     color: #383838;
     font-size: 16px;
     text-align: justify;
@@ -100,7 +139,7 @@
 #intro-team h5,
 #intro-team h4,
 #how-main h4 {
-    font-family: Dosis;
+    font-family: Overpass, Dosis;
     color: black;
 }
 
@@ -139,7 +178,8 @@ nav ul a {
 
 /* ================================================ Home ===================================================*/
 #main,
-#intro-team {
+#intro-team,
+#refer-ligitimacy {
     background-color: #eee;
 }
 
@@ -151,7 +191,7 @@ video {
 
 /*================================================== Slider =================================================*/
 #home-slider {
-    font-family: Dosis;
+    font-family: Overpass, Dosis;
 }
 
 #home-slider .carousel {
@@ -189,7 +229,7 @@ video {
 }
 
 #footer h4 {
-    font-family: Dosis;
+    font-family: Overpass, Dosis;
     font-size: 16px;
 }
 
@@ -199,18 +239,26 @@ video {
 
 
 #questions {
-    padding-right: 0px;
+    position: relative;
+    left: 12%;
 }
 
 /* ============================================ Media Queries ============================================= */
 /* Mobile phone */
 @media only screen and (max-width: 600px) {
+    #cards .card {
+        width: 75%;
+        position: relative;
+        left: 11%;
+    }
+
+
     #main table {
         width: 100%;
     }
 
     .parallax-container {
-        height: 165px;
+        height: 195px;
     }
 
     .brand-logo img {

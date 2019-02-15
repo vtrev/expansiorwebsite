@@ -12,6 +12,31 @@
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./css/flaticon.css">
+    <script src="./js/handlebars.min.js"></script>
+    <script type="text/x-template" id="cards-template">
+        {{#each accounts}}
+        <div class="col s12 m6 l3">
+        <div class="card center">
+            <div class="card-content">
+                <h4>{{this.account}}</h4>
+                <p>Donate to join</p>
+                <h5>R{{this.price}}</h5>
+                <br>
+                <button class="btn waves-effect waves-light">Join now</button></div></div></div> 
+        {{/each}}
+        <div class="col s12 m6 l3">
+                <div class="card center">
+                    <div class="card-content">
+                        <br>
+                       <p>Your dreams <br>
+                            are just a <br>
+                            donation away</p> 
+                    <br><br><br>
+                    <button style="position:relative;top:11px;" class="btn waves-effect waves-light">Join now</button>
+                </div>
+                </div>   
+        <div>
+    </script>
 
 </head>
 
@@ -68,7 +93,10 @@
                         a difference" - </label><label style="font-size: 17px; color: black">&nbsp;&nbsp;Kathy Calvin</label>
                 </div>
             </div>
+            <div id="cards" class="row center">
+            </div>
         </div>
+        <br>
     </section>
 
 
@@ -90,7 +118,6 @@
                 </div>
                 <div id="questions" class="col s12 m5 l5 right">
                     <h4>HAVE ANY QUESTIONS?</h4>
-                    <br>
                     <li>
                         <i class="material-icons prefix">pin_drop</i>
                         <span>10 Riesling Road, Oude Westhof, <br> Bellville, Cape Town</span>
@@ -122,7 +149,8 @@
     </footer>
 
     <!-- JavaScript-->
-    <script src="./js/script.js"></script>
+    <script src="./js/globalScript.js"></script>
+    <script src="./js/join.js"></script>
     <script src="./js/mat.min.js"></script>
 </body>
 

@@ -6,9 +6,7 @@
     width: 100%;
 }
 
-#contact-form {
-    /* width: 95%; */
-}
+
 
 
 #contact,
@@ -193,7 +191,6 @@ video {
 #edu-image{
     height: 320px;
 }
-
 #home-slider {
     font-family: Overpass, Dosis;
 }

@@ -250,6 +250,22 @@ video {
 /* ============================================ Media Queries ============================================= */
 /* Mobile phone */
 @media only screen and (max-width: 600px) {
+    #main2 p,
+    #intro-team p,
+    #how-main p {
+        font-family: Overpass, Dosis;
+        color: #383838;
+        font-size: 16px;
+        text-align: left;
+    }
+    #questions {
+        position: unset;
+        /* left: 12%; */
+    }
+    #footer{
+        text-align: left;
+    }
+
     #cards .card {
         width: 75%;
         position: relative;

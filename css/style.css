@@ -250,7 +250,7 @@ video {
 /* Mobile phone */
 @media only screen and (max-width: 600px) {
     #home-message form{
-        height: 380px;
+        height: 379px;
     }
     #main2 p,
     #intro-team p,

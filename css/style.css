@@ -6,7 +6,9 @@
     width: 100%;
 }
 
-
+#home-message form{
+    height: 400px;
+}
 
 
 #contact,
@@ -247,6 +249,9 @@ video {
 /* ============================================ Media Queries ============================================= */
 /* Mobile phone */
 @media only screen and (max-width: 600px) {
+    #home-message form{
+        height: 380px;
+    }
     #main2 p,
     #intro-team p,
     #how-main p {

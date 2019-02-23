@@ -17,7 +17,7 @@
          instance.next();
          setTimeout(slide, 4000);
      }
-    //  slide()
+     slide()
 
 
  });

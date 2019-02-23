@@ -247,6 +247,7 @@ video {
     font-family: Lato;
     text-align: justify;
     text-justify: inter-word;
+    margin-top: -22px;
 }
 
 #footer h4 {

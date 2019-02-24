@@ -27,9 +27,9 @@
     font-family: Lato;
 }
 
-#cards .card {
+/* #cards .card {
     width: 70%;
-}
+} */
 
 #cards .card h4 {
     font-family: Overpass, Dosis;
@@ -129,7 +129,7 @@
 }
 
 
-#main2 p,
+#main p,#main2 p,
 #intro-team p,
 #how-main p ,#refer-main p{
     font-family: Overpass, Dosis;
@@ -165,14 +165,11 @@ nav .section {
 .brand-logo img {
     padding-top: 20px;
     padding-bottom: 8px;
-    /* padding-left: 60px; */
     width: 80%;
-    /* position: relative;
-    left: 50px; */
 }
 
 #nav-mobile {
-    /* padding-right: 160px; */
+    padding-top: 10px;
 
 }
 

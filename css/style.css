@@ -1,6 +1,9 @@
 /* owl */
 
 /*============================================ Global styles ==============================================*/
+.footer-bar-link{
+    float: right;
+}
 tr {
     border-bottom: none;
 }

@@ -1,3 +1,12 @@
+document.addEventListener('DOMContentLoaded', function () {
+
+    // //parallax
+    var elems = document.querySelectorAll('.parallax');
+    var instances = M.Parallax.init(elems, {});
+    //carousel
+})
+
+
 // Handlebars compilation for the partners caourosel
 let generateAccounts = function (accounts) {
     var accountsElement = document.getElementById("cards");
@@ -9,7 +18,7 @@ let generateAccounts = function (accounts) {
 
 
 let accounts = [{
-    account: "Floa",
+    account: "Floe",
     price: "100"
 }, {
     account: "Glaze",
@@ -21,7 +30,7 @@ let accounts = [{
     account: "Jasper",
     price: "800"
 }, {
-    account: "Albasia",
+    account: "Ablasia",
     price: "1500"
 }, {
     account: "Enblast",

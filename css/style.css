@@ -175,7 +175,7 @@ nav .section {
 /* Making first letter of the links capital letter */
 nav ul li.nav-item {
     /* position: relative; */
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
     color: gray;
 }
 
@@ -322,7 +322,7 @@ video {
     /* Making first letter of the links capital letter */
     nav ul li.nav-item {
         /* position: relative; */
-        text-transform: lowercase;
+        /* text-transform: lowercase; */
         color: gray;
     }
 

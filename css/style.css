@@ -1,21 +1,31 @@
 /* owl */
 
 /*============================================ Global styles ==============================================*/
-.footer-bar-link{
+
+#wecareaboutheading {
+    position: relative;
+    top: 15px;
+}
+
+.footer-bar-link {
     float: right;
 }
+
 tr {
     border-bottom: none;
 }
-#copyright{
+
+#copyright {
     padding-top: 19px;
 }
-#bottom-bar a{
+
+#bottom-bar a {
     color: white;
     /* padding-right: 10px;
     padding-left: 10px; */
 }
-#more{
+
+#more {
     display: none;
 }
 
@@ -143,9 +153,11 @@ tr {
 }
 
 
-#main p,#main2 p,
+#main p,
+#main2 p,
 #intro-team p,
-#how-main p ,#refer-main p{
+#how-main p,
+#refer-main p {
     font-family: Overpass, Dosis;
     color: #383838;
     font-size: 16px;
@@ -228,7 +240,7 @@ video {
 
 #home-slider .carousel {
     position: relative;
-    bottom: 25px;
+    bottom: 35px;
 }
 
 #home-slider .card .card-image .card-title {
@@ -279,9 +291,11 @@ video {
     position: relative;
     left: 12%;
 }
-#bottom-bar{
-    background-color:red;
+
+#bottom-bar {
+    background-color: red;
 }
+
 /* ============================================ Media Queries ============================================= */
 /* Mobile phone */
 @media only screen and (max-width: 600px) {
@@ -291,7 +305,8 @@ video {
 
     #main2 p,
     #intro-team p,
-    #how-main p,#refer-main p {
+    #how-main p,
+    #refer-main p {
         font-family: Overpass, Dosis;
         color: #383838;
         font-size: 16px;

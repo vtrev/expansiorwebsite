@@ -9,7 +9,9 @@
          duration: 200,
      });
 
-
+     //
+     var elems = document.querySelectorAll('.parallax');
+     var instances = M.Parallax.init(elems, {});
      //  M.AutoInit();
      var slide = () => {
          let carousel = document.getElementById('home-carousel');

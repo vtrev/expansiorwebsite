@@ -2,6 +2,10 @@
 
 /*============================================ Global styles ==============================================*/
 
+#footer q {
+    font-size: 26px;
+}
+
 #wecareaboutheading {
     position: relative;
     top: 15px;
@@ -48,7 +52,8 @@ tr {
 }
 
 #contact p {
-    font-family: Lato;
+    font-family: Overpass,
+        Dosis;
 }
 
 /* #cards .card {
@@ -62,12 +67,14 @@ tr {
 
 #cards .card h5 {
     color: #7cbd1e;
-    font-family: Lato;
+    font-family: Overpass,
+        Dosis;
 }
 
 #cards .card p {
     font-size: 17px;
-    font-family: Lato;
+    font-family: Overpass,
+        Dosis;
 }
 
 #cards .card-content {
@@ -97,7 +104,8 @@ tr {
 }
 
 #main {
-    font-family: Lato;
+    font-family: Overpass,
+        Dosis;
 
 }
 
@@ -117,7 +125,9 @@ tr {
 
 
 #home-message {
-    font-family: 'Lato', 'Helvetica', 'sans-serif';
+    font-family: 'Overpass, Dosis',
+        'Helvetica',
+        'sans-serif';
     background-image:
         linear-gradient(rgba(29, 169, 157, .8),
         rgba(29, 169, 157, .8)),
@@ -147,7 +157,8 @@ tr {
 }
 
 #home-message textarea {
-    font-family: Lato;
+    font-family: Overpass,
+        Dosis;
     font-size: 15px;
     color: white;
 }
@@ -252,7 +263,8 @@ video {
 }
 
 #home-slider h4 {
-    font-family: Lato;
+    font-family: Overpass,
+        Dosis;
 }
 
 #home-slider .carousel .carousel-item {
@@ -271,7 +283,8 @@ video {
 
 
 #footer {
-    font-family: Lato;
+    font-family: Overpass,
+        Dosis;
     text-align: justify;
     text-justify: inter-word;
     margin-top: -22px;
@@ -283,7 +296,8 @@ video {
 }
 
 #footer {
-    font-family: Lato;
+    font-family: Overpass,
+        Dosis;
 }
 
 

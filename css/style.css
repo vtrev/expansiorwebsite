@@ -1,6 +1,11 @@
 /* owl */
 
 /*============================================ Global styles ==============================================*/
+section {
+    font-family: Overpass,
+        Dosis;
+
+}
 
 #footer q {
     font-size: 26px;
@@ -62,7 +67,6 @@ tr {
 
 #cards .card h4 {
     font-family: Overpass, Dosis;
-    ;
 }
 
 #cards .card h5 {
@@ -313,6 +317,25 @@ video {
 /* ============================================ Media Queries ============================================= */
 /* Mobile phone */
 @media only screen and (max-width: 600px) {
+
+    #edu-image {
+        height: 296px;
+    }
+
+    #home-slider .card .card-image .card-title {
+        bottom: 0px;
+    }
+
+
+    #main p,
+    #main2 p,
+    #intro-team p,
+    #how-main p,
+    #refer-main p {
+        text-align: left;
+    }
+
+
     #home-message form {
         height: 379px;
     }

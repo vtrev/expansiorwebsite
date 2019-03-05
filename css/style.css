@@ -1,6 +1,16 @@
 /* owl */
 
 /*============================================ Global styles ==============================================*/
+
+#join-cards {
+    background-color: #00A887;
+}
+
+#join-cards p,
+#join-cards q {
+    color: white;
+}
+
 section {
     font-family: Overpass,
         Dosis;

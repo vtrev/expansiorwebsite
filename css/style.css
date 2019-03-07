@@ -1,6 +1,9 @@
 /* owl */
 
 /*============================================ Global styles ==============================================*/
+.btn {
+    background-color: #00A887;
+}
 
 .user-view img {
     width: 80%;
@@ -97,7 +100,7 @@ tr {
 }
 
 #cards .card h5 {
-    color: #7cbd1e;
+    color: #00A887;
     font-family: Overpass,
         Dosis;
 }

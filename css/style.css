@@ -2,6 +2,12 @@
 
 /*============================================ Global styles ==============================================*/
 
+.user-view img {
+    width: 80%;
+    position: relative;
+    left: 6px;
+}
+
 .sub-q {
     font-size: 18px;
 }

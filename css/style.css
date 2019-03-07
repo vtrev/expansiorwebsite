@@ -2,6 +2,10 @@
 
 /*============================================ Global styles ==============================================*/
 
+.sub-q {
+    font-size: 18px;
+}
+
 #join-cards {
     background-color: #00A887;
 
@@ -25,7 +29,7 @@ section {
 }
 
 #footer q {
-    font-size: 26px;
+    font-size: 23px;
 }
 
 #wecareaboutheading {

@@ -4,6 +4,13 @@
 
 #join-cards {
     background-color: #00A887;
+
+}
+
+#main-how {
+    background-color: #00A887;
+    color: white;
+
 }
 
 #join-cards p,
@@ -246,7 +253,7 @@ nav ul a {
 #main,
 #intro-team,
 #refer-ligitimacy {
-    background-color: #eee;
+    background-color: white;
 }
 
 video {

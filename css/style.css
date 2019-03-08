@@ -205,6 +205,7 @@ tr {
 
 
 #main p,
+#main-how,
 #main2 p,
 #intro-team p,
 #how-main p,
@@ -377,6 +378,7 @@ video {
     }
 
     #main2 p,
+    #main-how p,
     #intro-team p,
     #how-main p,
     #refer-main p {

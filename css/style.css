@@ -213,13 +213,14 @@ tr {
 
 
 #main p,
-#main-how,
 #main2 p,
 #intro-team p,
 #how-main p,
 #refer-main p {
-    font-family: Overpass, Dosis;
+   font-family: Overpass, Dosis;
+    color: #383838;
     font-size: 16px;
+    text-align: justify;
     text-justify: inter-word;
 }
 

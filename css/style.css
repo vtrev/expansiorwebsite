@@ -219,9 +219,7 @@ tr {
 #how-main p,
 #refer-main p {
     font-family: Overpass, Dosis;
-    color: #383838;
     font-size: 16px;
-    text-align: justify;
     text-justify: inter-word;
 }
 

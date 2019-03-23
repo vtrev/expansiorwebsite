@@ -4,7 +4,9 @@ IT WAS MADE FOR LAUNCHING. */
 
 /*============================================ Global styles ==============================================*/
 
-
+footer h4 {
+color:white;
+}
 h4,h5,h6{
 color:#383838;
 }

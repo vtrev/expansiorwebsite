@@ -225,11 +225,9 @@ tr {
 }
 
 #main2 h4,
-#intro-team h5,
 #intro-team h4,
 #how-main h4 {
     font-family: Overpass, Dosis;
-    color: black;
 }
 
 /*============================================== Navigation ================================================*/

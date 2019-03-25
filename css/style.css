@@ -38,13 +38,15 @@ color:#383838;
     background-color: #00A887;
 
 }
-/* 
+
 #main-how {
     background-color: #00A887;
     color: white;
 
-} */
-
+} 
+#main-how h4 {
+    color: white !important;
+}
 #join-cards h,
 #join-cards p,
 #join-cards q {

@@ -4,6 +4,14 @@ IT WAS MADE FOR LAUNCHING. */
 
 /*============================================ Global styles ==============================================*/
 
+.parallax-container {
+    height: 650px;
+}
+
+.parallax-container .parallax img {
+    width: 100%;
+}
+
 footer h4 {
 color:white !important;
 }
@@ -143,13 +151,7 @@ tr {
     background: #fafafa !important;
 }
 
-#how-parallax {
-    height: 620px;
-}
 
-/* .spacer {
-    height: 66px;
-} */
 
 #main table {
     width: 70%;

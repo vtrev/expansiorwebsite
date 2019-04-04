@@ -386,7 +386,6 @@ video {
     }
 
     #main2 p,
-    #main-how p,
     #intro-team p,
     #how-main p,
     #refer-main p {
@@ -395,6 +394,15 @@ video {
         font-size: 16px;
         text-align: left;
     }
+
+
+    #main-how p{
+        font-family: Overpass, Dosis;
+        color:white;
+        font-size: 16px;
+        text-align: left;
+    }
+
 
     #questions {
         position: unset;

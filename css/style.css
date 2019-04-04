@@ -1,6 +1,4 @@
-/* PLEASE NOTE THAT THIS IS DIRTY CODE,
-STILL TO BE WELL DOCUMENTED AND CLEANED UP,
-IT WAS MADE FOR LAUNCHING. */
+/* todo cleanup */
 
 /*============================================ Global styles ==============================================*/
 
@@ -90,8 +88,6 @@ tr {
 
 #bottom-bar a {
     color: white;
-    /* padding-right: 10px;
-    padding-left: 10px; */
 }
 
 #more {
@@ -121,9 +117,6 @@ tr {
         Dosis;
 }
 
-/* #cards .card {
-    width: 70%;
-} */
 
 #cards .card h4 {
     font-family: Overpass, Dosis;
@@ -177,11 +170,6 @@ tr {
     color: #069588;
 }
 
-/* #home-message .container {
-    background-color: #009688;
-    opacity: .8;
-} */
-
 
 #home-message {
     font-family: 'Overpass, Dosis',
@@ -208,7 +196,6 @@ tr {
 
 #home-message form {
     width: 100%;
-    /* height: 100%; */
 }
 
 #home-message .input-field>label {
@@ -239,7 +226,6 @@ tr {
 #intro-team h4,
 #how-main h4 {
     font-family: Overpass, Dosis;
-    #383838;
 }
 
 /*============================================== Navigation ================================================*/
@@ -450,8 +436,7 @@ video {
 
     /* Making first letter of the links capital letter */
     nav ul li.nav-item {
-        /* position: relative; */
-        /* text-transform: lowercase; */
+ 
         color: gray;
     }
 

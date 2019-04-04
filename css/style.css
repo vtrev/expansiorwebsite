@@ -410,6 +410,7 @@ video {
     }
 
     #footer {
+        color: white !important;
         text-align: left;
     }
 

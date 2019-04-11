@@ -351,9 +351,9 @@ video {
 }
 
 
-#questions {
+.contact-footer {
     position: relative;
-    left: 12%;
+    left: 9% !important;
 }
 
 #bottom-bar {
@@ -363,6 +363,10 @@ video {
 /* ============================================ Media Queries ============================================= */
 /* Mobile phone */
 @media only screen and (max-width: 600px) {
+    .contact-footer {
+        position: relative;
+        left: 0% !important;
+    }
     #join-main td img {
         position: relative;
         top: -1px;
@@ -445,7 +449,7 @@ video {
 
 }
 
-/* add media query to keep links lowercap and only capitalise the first letter  */
+/* ?? */
 @media screen and (max-width: 1025px) {
 
     /* Making first letter of the links capital letter */
@@ -466,5 +470,17 @@ video {
 
 
 }
+@media screen and (max-width: 1001px) and (min-width: 600px){
+    #footer {
+        color: white !important;
+        text-align: left;
+    }
+    .contact-footer {
+        position: relative;
+        left: 0% !important;
+    }
+    
+}
+
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);

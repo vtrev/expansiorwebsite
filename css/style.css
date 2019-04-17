@@ -235,7 +235,7 @@ tr {
 
 /*============================================== Navigation ================================================*/
 nav {
-    height: 86px;
+    height: 100px;
     border-bottom: 2px solid #009688;
     box-shadow: none !important;
 }
@@ -249,7 +249,7 @@ nav .section {
 }
 
 .brand-logo img {
-  
+
     width: 320px;
 }
 
@@ -438,7 +438,6 @@ video {
     }
 
     .brand-logo img {
-        padding-top: 5px;
         width: 250px;
     }
 

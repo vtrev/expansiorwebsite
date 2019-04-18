@@ -2,7 +2,9 @@
 
 /*============================================ Global styles ==============================================*/
 
-
+.spacer{
+    height: 35px;
+}
 #contact-form .input-field .prefix{
     color: #00A887;
 }
@@ -438,6 +440,8 @@ video {
     }
 
     .brand-logo img {
+        position: relative;
+        top: 15px;
         width: 250px;
     }
 

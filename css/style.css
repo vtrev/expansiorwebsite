@@ -2,10 +2,12 @@
 
 /*============================================ Global styles ==============================================*/
 
-.spacer{
+.spacer {
     height: 35px;
 }
-#contact-form .input-field .prefix{
+
+#main b,
+#contact-form .input-field .prefix {
     color: #00A887;
 }
 
@@ -18,10 +20,14 @@
 }
 
 footer h4 {
-color:white !important;
+    color: white !important;
 }
-h4,h5,h6,#refer-ligitimacy{
-color:#757575;
+
+h4,
+h5,
+h6,
+#refer-ligitimacy {
+    color: #757575;
 }
 
 #join-main q {
@@ -56,10 +62,12 @@ color:#757575;
     background-color: #00A887;
     color: white;
 
-} 
+}
+
 #main-how h4 {
     color: white !important;
 }
+
 #join-cards h,
 #join-cards p,
 #join-cards q {
@@ -222,7 +230,7 @@ tr {
 #intro-team p,
 #how-main p,
 #refer-main p {
-   font-family: Overpass, Dosis;
+    font-family: Overpass, Dosis;
     color: #757575;
     font-size: 16px;
     text-align: justify;
@@ -343,7 +351,7 @@ video {
 #footer h4 {
     font-family: Overpass, Dosis;
     font-size: 16px;
-    color:white !important;
+    color: white !important;
 }
 
 #footer {
@@ -368,6 +376,7 @@ video {
         position: relative;
         left: 0% !important;
     }
+
     #join-main td img {
         position: relative;
         top: -1px;
@@ -406,9 +415,9 @@ video {
     }
 
 
-    #main-how p{
+    #main-how p {
         font-family: Overpass, Dosis;
-        color:white;
+        color: white;
         font-size: 16px;
         text-align: left;
     }
@@ -457,7 +466,7 @@ video {
 
     /* Making first letter of the links capital letter */
     nav ul li.nav-item {
- 
+
         color: gray;
     }
 
@@ -473,16 +482,18 @@ video {
 
 
 }
-@media screen and (max-width: 1001px) and (min-width: 600px){
+
+@media screen and (max-width: 1001px) and (min-width: 600px) {
     #footer {
         color: white !important;
         text-align: left;
     }
+
     .contact-footer {
         position: relative;
         left: 0% !important;
     }
-    
+
 }
 
 

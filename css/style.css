@@ -2,6 +2,13 @@
 
 /*============================================ Global styles ==============================================*/
 
+
+
+
+#incentiveplan-section h5 {
+    font-size: 1.5rem;
+}
+
 .spacer {
     height: 35px;
 }
@@ -193,7 +200,7 @@ tr {
         'sans-serif';
     background-image:
         linear-gradient(rgba(29, 169, 157, .8),
-        rgba(29, 169, 157, .8)),
+            rgba(29, 169, 157, .8)),
         url("../images/formbg.jpg");
     background-repeat: no-repeat;
 }

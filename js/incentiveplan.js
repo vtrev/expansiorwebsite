@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function () {
             income5: "33,105.60",
         },
         {
-            incentivePerReferral = 152,
+            incentivePerReferral: 152,
             ipl1: 456,
             ipl2: "1,368",
             ipl3: "4,104",

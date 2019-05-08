@@ -15,6 +15,53 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./css/flaticon.css">
 
+    <script type="text/x-template" id="table-template">
+        <table style="width:100%">
+
+        <tr>
+            <th>Level</th>
+            <th>Referrals</th>
+            <th>Incentive per referral</th>
+            <th>Incentive per Level</th>
+            <th>Total Income (per month)</th>
+        <tr>
+            <td>1</td>
+            <td>3</td>
+            <td>{{incentivePerReferral}}</td>
+            <td>{{ipl1}}</td>
+            <td>{{ipl1}}</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>9</td>
+            <td>{{incentivePerReferral}}</td>
+            <td>{{ipl2}}</td>
+            <td>{{income2}}</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>27</td>
+            <td>{{incentivePerReferral}}</td>
+            <td>{{ipl3}}</td>
+            <td>{{income3}}</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>81</td>
+            <td>{{incentivePerReferral}}</td>
+            <td>{{ipl4}}</td>
+            <td>{{income4}}</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>243</td>
+            <td>{{incentivePerReferral}}</td>
+            <td>{{ipl5}}</td>
+            <td><b>{{income5}}</b></td>
+        </tr>
+        </table>
+    </script>
+
 </head>
 
 <body>
@@ -38,7 +85,6 @@
             </div>
         </nav>
     </div>
-
     <!-- side Navigation -->
     <ul id="slide-out" class="sidenav">
         <li>
@@ -54,13 +100,549 @@
         <li class="nav-item"><a href="./contact.html" class="nav-link">Contact</a></li>
         <li class="nav-item login"><a href="#" class="nav-link">Login</a></li>
     </ul>
+    <div class="spacer"></div>
 
+    <!-- End of navigation menus -->
     <div class="container">
+        <div class="row">
+            <h4>Incentive plan</h4>
+            <br>
+            <div class="col s12 m12 l12">
+                <p>
+                    We have developed a comprehensive <b>network marketing incentive programwhich</b> uses a <b>3X10
+                        matrix</b> to
+                    incentivise marketers. Before you take part in the marketing program, it is important for you to
+                    read the <b>Terms and Conditions</b>(read them here) affecting your involvement in the program. If
+                    you
+                    are
+                    satisfied with the information given in the Terms and Conditions, it is critical for you to accept
+                    them for the system to allow you to proceed. When you sign up to register as an iGen donor, you will
+                    have to choose <b>Option 3</b> if you prefer to participate in the incentive program.
+                </p>
+                <p>
+                    With our 3X10 matrix, we are able to incentivise you on a monthly basis for actively or passively
+                    marketing The iGen
+                    Education Trust to family, friends and any other person you may think of. Once any of the people you
+                    have marketed iGen
+                    to decides to donate to iGen on a monthly basis, we will reward you for using your time and effort
+                    to
+                    support the iGen
+                    dream. <b> The 3X10 matrix simply means you are allowed a maximum of three people directly under you
+                        but
+                        you
+                        will be
+                        incentivised up to ten levels deep.</b>
+                </p>
+                <p>
+                    It is important at this stage for you to remember that this whole iGen concept is about raising
+                    funds to support tertiary students who are financially needy so they could honour their financial
+                    commitments to their institutions. Therefore, regardless of the immense possibilities which exist
+                    for you to generate huge revenue, <b> do not allow yourself to be motivated and driven by
+                        uncontrollable
+                        greed.</b>
+                </p>
+                <p>The sections below fully explain how our 3X10 matrix works. Please, study it carefully to develop a
+                    full understanding and to appreciate the comprehensive algorithms used to achieve this.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <h5>Level 1</h5>
+                <p>With the 3X10 matrix, our system will allow you to have a <b>maximum of three (3)</b> people directly
+                    referred by you. These people will be referred to as your direct downlines as they will be directly
+                    linked to you in our incentive matrix (see illustration in the Figure below).</p>
+                <br>
+                <img src="" alt="">
+                <p>
+                    The illustration above shows a direct link between you, Thando, Nosie and Morné . This means that
+                    you would have personally marketed and promoted iGen to Thando, Nosie and Morné and they would have
+                    used your member ID (MID) during their registration phase when upline details were requested. These
+                    three people directly connected to you are also referred as your first level or <b>Level one
+                        (1).</b> You
+                    will be paid monthly by Expansior for each donor you refer who decides to make a monthly donation to
+                    iGen. You don’t have to fill any level fully for you to be incentivised. You will be paid according
+                    to the number of people in your network regardless of whether all positions on a certain level are
+                    fully occupied or not. Your incentive will vary depending on the amount contributed by each donor in
+                    your team/network. However, it is important to note that each person can only have a maximum of
+                    three people directly linked to him/her.
+
+                </p>
+
+                <h5>Level 2</h5>
+
+                <p>The network marketing programme allows those below you to also refer three donors under each one of
+                    them. This simply means that, using the illustration above, Thando can also refer three people who
+                    will be directly under him. Nosie and Morné also have an equal opportunity to do the same and market
+                    iGen to three other people each (see illustration below). This means each of them will end up with
+                    three people under them, making a total of nine people for that level.
+                </p>
+
+                This is referred to as your <b>Level 2</b>, but it will be level one for Thando, Nosie and Morne.
+                Just like
+                you, the three will be incentivised on a monthly basis for their referrals. However, since you
+                personally referred Thando, Nosie and Morné, the system will still pay you the same amount you received
+                earlier per person for the nine people referred by the people under you. This is because the system
+                acknowledges that you are their <b>indirect upline</b> (see digram below). The system only allows you a
+                <b>maximum
+                    of nine (9) people on level two.</b>
+                <br>
+                <img src="" alt="">
+
+                <p>The system will pay you on the basis of a number of factors, i.e. the amount you are donating to iGen
+                    on a monthly basis, the amount donated to iGen by each of your downlines on a monthly basis, the
+                    number of active downlines you have in your team and the reduction formula used from level six to
+                    level ten as indicated in the terms and conditions (read your terms and conditions here).
+                    <br>
+                    Due to the fact that there are seven different monthly donation options to choose from, i.e. R100,
+                    R300, R500, R800, R1,500, R3,000 and R5,000, the incentive you are going to receive will vary
+                    depending on the combination of the factors mentioned above. The system has been designed to create
+                    an <b>accurate set of rules</b> to be followed in calculating these amounts. It takes all these
+                    factors
+                    into account and calculates the total amount to be paid into your account on a monthly basis. Unless
+                    you are contributing R100 and every other person in your network donates the same amount, it becomes
+                    literally impossible to estimate the amount you are likely to receive at the end of each month,
+                    until the actual time comes.
+                    <br>
+                    Several sections below use the <b>assumption that every person in your network is contributing the
+                        same
+                        amount</b> as yours for the donation options listed above. When such an assumption is made, it
+                    becomes
+                    possible to estimate the likely incentive to be paid to you and other marketers in your team.
+                </p>
+
+                <h5>Spill-overs</h5>
+                <p>
+                    Due to the nature of the matrix, it is almost certain that members will receive <b>spill-overs</b>
+                    from
+                    their
+                    uplines, Spill-overs happen when those above you refer more people who sign up to donate than the
+                    three
+                    (3) that they are expected to. That then leads to you receiving marketers under you who will belong
+                    to
+                    your network even though you never personally marketed to them. This maximises the amazing power of
+                    <b>leverage</b> and helps to grow your team, and inevitably your incentive, phenomenally. It,
+                    therefore,
+                    means
+                    you don’t only benefit from your own efforts and the efforts of those below you, but you also
+                    benefit
+                    from the hard work of those above you. This is teamwork, or rather <b>ubuntu</b>, at its best. This
+                    is
+                    illustrated in the diagram below.
+                </p>
+
+                <img src="" alt="">
+                <p>
+                    In the diagram above, all the red individuals are spill-overs from uplines of the different
+                    marketers. Person 1 only successfully marketed iGen to person 4, but he also received persons 9 and
+                    10 from you as his upline. This simply means that you, as the upline, referred more people than the
+                    3 expected on your level 1. This will continue for as long as those above you keep referring people
+                    who end up registering to support iGen.
+                    <br>
+                    This practically means you will be able to earn revenue from the referral fees of people you have
+                    not personally referred, and highly likely people you do not know but who were successfully referred
+                    to iGen by your different uplines.
+                    <br>
+
+                    This makes the 3X10 matrix a <b>“communal matrix”</b> or an <b>“ubuntu matrix”</b> which promotes
+                    the
+                    power
+                    of
+                    collective effort while maximising the benefits of individual profitability.
+                    <br>
+                    Each donation option carries its own incentive amount, with R100 per month carrying the lowest and
+                    R5000 per month carrying the highest. The amount you choose to donate determines the level at which
+                    you will be incentivised. If you choose to donate a lower amount, i.e. R100 pm, you will be
+                    incentivised as per the R100 option. If you choose to donate a higher amount, i.e. R5000 pm, you
+                    will be incentivised far much more per person, depending on the donation level of each person in
+                    your team.
+
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <h5>Incentive estimates</h5>
+                <p>
+                    The amounts paid per person per month may seem rather small to you and many other people, but if you
+                    consider the fact that your team grows from communal effort and not individual effort, you will
+                    appreciate the power behind this strategy. Many network marketing companies tend to focus more on
+                    the power and ability of individual network marketers to recruit and keep other marketers. Such
+                    companies tend to pay reasonably huge commissions on a monthly basis, but they fail to realise two
+                    very important factors, i.e. 1) that not every person out there is a network marketer who is adept
+                    at recruiting, and 2) that an individual’s efforts can only benefit him or her so much in a day.
+                    <b>Our
+                        3X10 ubuntu matrix maximises the benefits of collective team effort</b> and very few network
+                    marketing
+                    matrices can successfully yield the results it produces.
+                </p>
+                <br>
+            </div>
+            <div class="col s12 m12 l12">
+                <h4>Incentive calculation for The Floe - R100 donation</h4>
+                <p>For the R100.00 donation option, you will be paid <b>R3.04 per person per month</b> from level one to
+                    five
+                    for each person who is in your network, regardless of the amount contributed by your downlines or
+                    the amount contributed by any of the spill-overs. <b>Your remuneration is determined by the amount
+                        you
+                        donate.</b> See below for a table (only levels 1-5) indicating what you are likely to receive,
+                    assuming
+                    each person in your network will be contributing R100.00 per month. The calculation would be
+                    straightforward if the amounts remained at R100.00 throughout the donation period. However, that is
+                    less likely to happen as amounts will continuously vary due to the individual amounts which members
+                    of your team may choose to donate as well as the built-in automatic upgrade facility.</p>
+                <button class="btn">Read more here</button>
+
+                <div>
+                    <p>The 3X10 matrix of the Floe (shown up to level 5 only)
+                        <br><br>
+                        For every R100 amount contributed by each donor to iGen, R19.00 will be set aside for marketing.
+                        20% of the R19.00, i.e. R3.80 will be set aside for the running of the marketing company and 80%
+                        of the R19.00, i.e, R15.20 will be set aside for the compensation of marketers. All marketers
+                        who successfully encourage other people to donate to iGen will be incentivised using a 3X10
+                        matrix as partially indicated in the table below.
+                    </p>
+                    <div id=table0>
+
+                    </div>
+
+                    <br>
+                    <p>
+                        As you can evidently see from the table above, the incentive program already pays you more
+                        than
+                        your donation amount by the time you complete level 3, or by the time you have 39 marketers
+                        in
+                        your team. By the time you reach the end of level 5, the program will be incentivising you
+                        with
+                        an amount which is more than ten times the amount you are donating to iGen. Simply put, a
+                        mere
+                        R100 donation to iGen on a monthly basis has the potential to help you generate over R1,000
+                        per
+                        month through the Expansior incentive program.<b> This is indeed incontrovertible proof that
+                            blessed is the hand that gives than the one that takes.</b>
+                        <br>
+                        For other amounts above R100.00, see the relevant tables below. Please, bear in mind that
+                        the
+                        calculations made here assume that every person is contributing the same amount on a
+                        particular
+                        donation option. This is highly unlikely as different people will opt to donate different
+                        amounts.
+                    </p>
+                </div>
 
 
+            </div>
+            <div class="col s12 m12 l12">
+                <h4>Incentive calculation for The Blaze - R300 donationn</h4>
+                <p>For the R300.00 donation option, you will be paid <b>R9.12 per person per month</b> from level one
+                    to five
+                    for each person who is in your network, regardless of the amount contributed by your downlines or
+                    the amount contributed by any of the spill-overs.<b>Your remuneration is determined by the amount
+                        you donate.</b> See below for a table (only levels 1-5) indicating what you are likely to
+                    receive,
+                    assuming each person in your network will be contributing R300.00 per month. The calculation
+                    would
+                    be straightforward if the amounts remained at R300.00 throughout the donation period. However,
+                    that is less likely to happen as amounts will continuously vary due to the individual amounts
+                    which members of your team may choose to donate as well as the built-in automatic upgrade
+                    facility.</p>
+                <button class="btn">Read more here</button>
 
+                <div>
+                    <p>The 3X10 matrix of the Blaze (shown up to level 5 only)
+                        <br><br>
+                        For every R300.00 amount contributed by each donor to iGen, R57.00 will be set aside for
+                        marketing. 20% of the R57.00, i.e. R11.40 will be set aside for the running of the marketing
+                        company and 80% of the R57.00, i.e, R45.60 will be set aside for the compensation of marketers.
+                        All marketers who successfully encourage other people to donate to iGen will be incentivised
+                        using a 3X10 matrix as partially indicated in the table below.
+                    </p>
+
+                    <div id="table1">
+
+                    </div>
+
+                    <br>
+                    <p>
+                        As you can evidently see from the table above, the incentive program already pays you more than
+                        your donation amount by the time you complete level 3, or by the time you have 39 marketers in
+                        your team. By the time you reach the end of level 5, the program will be incentivising you with
+                        an amount which is more than ten times the amount you are donating to iGen. Simply put, a mere
+                        R300.00 donation to iGen on a monthly basis has the potential to help you generate over R3,000
+                        per month through the Expansior incentive program. <b>This is indeed incontrovertible proof that
+                            blessed is the hand that gives than the one that takes.</b>
+                    </p>
+                </div>
+
+
+            </div>
+            <div class="col s12 m12 l12">
+                <h4>Incentive calculation for The Aster - R500 donation</h4>
+                <p>For the R300.00 donation option, you will be paid <b>R9.12 per person per month</b> For the R500.00
+                    donation option, you will be paid <b>R15.20 per person per month</b> from level one to five for each
+                    person
+                    who is in your network, regardless of the amount contributed by your downlines or the amount
+                    contributed by any of the spill-overs. <b>Your remuneration is determined by the amount you
+                        donate.</b> See
+                    below for a table (only levels 1-5) indicating what you are likely to receive, assuming each person
+                    in your network will be contributing R500.00 per month. The calculation would be straightforward if
+                    the amounts remained at R500.00 throughout the donation period. However, that is less likely to
+                    happen as amounts will continuously vary due to the individual amounts which members of your team
+                    may choose to donate as well as the built-in automatic upgrade facility.</p>
+                <button class="btn">Read more here</button>
+                <div>
+                    <p>The 3X10 matrix of The Aster (shown up to level 5 only)
+                        <br><br>
+                        For every R500 amount contributed by each donor to iGen, R95.00 will be set aside for marketing.
+                        20% of the R95.00, i.e. R19 will be set aside for the running of the marketing company and 80%
+                        of the R95.00, i.e, R76.00 will be set aside for the compensation of marketers. All marketers
+                        who successfully encourage other people to donate to iGen will be incentivised using a 3X10
+                        matrix as partially indicated in the table below.
+
+                    </p>
+                    <div id="table2">
+                    </div>
+                    <br>
+                    <p>
+                        As you can evidently see from the table above, the incentive program already pays you more than
+                        your donation amount by the time you complete level 3, or by the time you have 39 marketers in
+                        your team. By the time you reach the end of level 5, the program will be incentivising you with
+                        an amount which is more than ten times the amount you are donating to iGen. Simply put, a mere
+                        R500 donation to iGen on a monthly basis has the potential to help you generate over R5,000 per
+                        month through the Expansior incentive program. <b>This is indeed incontrovertible proof that
+                            blessed is the hand that gives than the one that takes.</b>
+                    </p>
+                </div>
+
+
+            </div>
+            <div class="col s12 m12 l12">
+                <h4>Incentive calculation for The Jasper - R800 donation</h4>
+                <p>For the R800.00 donation option, you will be paid <b> R24.32 per person per month </b>from level one
+                    to
+                    five
+                    for each person who is in your network, regardless of the amount contributed by your downlines or
+                    the amount contributed by any of the spill-overs. <b> Your remuneration is determined by the amount
+                        you
+                        donate.</b> See below for a table (only levels 1-5) indicating what you are likely to receive,
+                    assuming
+                    each person in your network will be contributing R800.00 per month. The calculation would be
+                    straightforward if the amounts remained at R800.00 throughout the donation period. However, that is
+                    less likely to happen as amounts will continuously vary due to the individual amounts which members
+                    of your team may choose to donate as well as the built-in automatic upgrade facility.</p>
+                <button class="btn">Read more here</button>
+                <div>
+                    <p>The 3X10 matrix of The Jasper (shown up to level 5 only)
+                        <br><br>
+                        For every R800.00 amount contributed by each donor to iGen, R152.00 will be set aside for
+                        marketing. 20% of the R152.00, i.e. R30.40 will be set aside for the running of the marketing
+                        company and 80% of the R152.00, i.e, R121.60 will be set aside for the compensation of
+                        marketers. All marketers who successfully encourage other people to donate to iGen will be
+                        incentivised using a 3X10 matrix as partially indicated in the table below
+
+                    </p>
+                    <div id="table3">
+                    </div>
+                    <br>
+                    <p>
+                        As you can evidently see from the table above, the incentive program already pays you more than
+                        your donation amount by the time you complete level 3, or by the time you have 39 marketers in
+                        your team. By the time you reach the end of level 5, the program will be incentivising you with
+                        an
+                        amount which is more than ten times the amount you are donating to iGen. Simply put, a mere R800
+                        donation to iGen on a monthly basis has the potential to help you generate over R8,000 per month
+                        through the Expansior incentive program<b>This is indeed incontrovertible
+                            proof that
+                            blessed is the hand that gives than the one that takes.</b>
+                    </p>
+                </div>
+
+
+            </div>
+            <div class="col s12 m12 l12">
+                <h4>Incentive calculation for The Ablazia - R1500 donation</h4>
+                <p>For the R1,500.00 donation option, you will be paid<b> R45.60 per person per month </b>from level one
+                    to five for each person who is in your network, regardless of the amount contributed by your
+                    downlines or the amount contributed by any of the spill-overs. <b> Your remuneration is determined
+                        by the
+                        amount
+                        you
+                        donate.</b> See below for a table (only levels 1-5) indicating what you are likely to receive,
+                    assuming each person in your network will be contributing R1,500.00 per month. The calculation
+                    would be straightforward if the amounts remained at R1,500.00 throughout the donation period.
+                    However, that is less likely to happen as amounts will continuously vary due to the individual
+                    amounts which members of your team may choose to donate as well as the built-in automatic
+                    upgrade facility.</p>
+                <button class="btn">Read more here</button>
+                <div>
+                    <p>The 3X10 matrix of The Ablazia (shown up to level 5 only)
+                        <br><br>
+                        For every R1,500.00 amount contributed by each donor to iGen, R285.00 will be set aside for
+                        marketing. 20% of the R285.00, i.e. R57.00 will be set aside for the running of the marketing
+                        company and 80% of the R285.00, i.e, R228.00 will be set aside for the compensation of
+                        marketers.
+                        All marketers who successfully encourage other people to donate to iGen will be incentivised
+                        using a 3X10 matrix as partially indicated in the table below.
+
+                    </p>
+                    <div id="table4">
+                    </div>
+                    <br>
+                    <p>
+                        As you can evidently see from the table above, the incentive program already pays you more than
+                        your donation amount by the time you complete level 3, or by the time you have 39 marketers in
+                        your team. By the time you reach the end of level 5, the program will be incentivising you with
+                        an amount which is more than ten times the amount you are donating to iGen. Simply put, a R1,500
+                        donation to iGen on a monthly basis has the potential to help you generate over R16,000 per
+                        month
+                        through the Expansior incentive program.<b>This is indeed incontrovertible
+                            proof that
+                            blessed is the hand that gives than the one that takes.</b>
+                    </p>
+                </div>
+
+
+            </div>
+            <div class="col s12 m12 l12">
+                <h4>Incentive calculation for The Enblast - R3000 donation</h4>
+                <p>For the R3,000.00 donation option, you will be paid <b> R91.20 per person per month </b>from level
+                    one to five for each person who is in your network, regardless of the amount contributed by your
+                    downlines or the amount contributed by any of the spill-overs. <b> Your remuneration is determined
+                        by the
+                        amount
+                        you
+                        donate.</b> See below for a table (only levels 1-5) indicating what you are likely to receive,
+                    assuming each person in your network will be contributing R3,000.00 per month. The calculation
+                    would be straightforward if the amounts remained at R3,000.00 throughout the donation period.
+                    However, that is less likely to happen as amounts will continuously vary due to the individual
+                    amounts which members of your team may choose to donate as well as the built-in automatic
+                    upgrade facility.</p>
+                <button class="btn">Read more here</button>
+                <div>
+                    <p>The 3X10 matrix of The Enblast (shown up to level 5 only)
+                        <br><br>
+                        For every R3,000.00 amount contributed by each donor to iGen, R570.00 will be set aside for
+                        marketing. 20% of the R570.00, i.e. R114.00 will be set aside for the running of the marketing
+                        company and 80% of the R570.00, i.e, R456.00 will be set aside for the compensation of
+                        marketers.
+                        All marketers who successfully encourage other people to donate to iGen will be incentivised
+                        using
+                        a 3X10 matrix as partially indicated in the table below.
+
+                    </p>
+                    <div id="table5">
+                    </div>
+                    <br>
+                    <p>
+                        As you can evidently see from the table above, the incentive program already pays you more than
+                        your donation amount by the time you complete level 3, or by the time you have 39 marketers in
+                        your team. By the time you reach the end of level 5, the program will be incentivising you with
+                        an
+                        amount which is more than ten times the amount you are donating to iGen. Simply put, a R3,000
+                        donation to iGen has the potential to help you generate over R33,000 per month through the
+                        Expansior incentive program. <b>This is indeed incontrovertible
+                            proof that
+                            blessed is the hand that gives than the one that takes.</b>
+                    </p>
+                </div>
+
+
+            </div>
+            <div class="col s12 m12 l12">
+                <h4>Incentive calculation for The Sirius - R5000 donation</h4>
+                <p>For the R5,000.00 donation option, you will be paid <b> R152.00 per person per month </b>from level
+                    one to five for each person who is in your network, regardless of the amount contributed by your
+                    downlines or the amount contributed by any of the spill-overs.<b> Your remuneration is determined
+                        by the
+                        amount
+                        you
+                        donate.</b>See below for a table (only levels 1-5) indicating what you are likely to receive,
+                    assuming each person in your network will be contributing R5,000.00 per month. The calculation
+                    would be straightforward if the amounts remained at R5,000.00 throughout the donation period.
+                    However, that is less likely to happen as amounts will continuously vary due to the individual
+                    amounts which members of your team may choose to donate as well as the built-in automatic
+                    upgrade facility.</p>
+                <button class="btn">Read more here</button>
+                <div>
+                    <p>The 3X10 matrix of The Sirius (shown up to level 5 only)
+                        <br><br>
+                        For every R5,000.00 amount contributed by each donor to iGen, R950.00 will be set aside for
+                        marketing. 20% of the R950, i.e. R190.00 will be set aside for the running of the marketing
+                        company and 80% of the R950.00, i.e, R760.00 will be set aside for the compensation of
+                        marketers. All marketers who successfully encourage other people to donate to iGen will be
+                        incentivised using a 3X10 matrix as partially indicated in the table below.
+
+                    </p>
+                    <div id="table6">
+                    </div>
+                    <br>
+                    <p>
+                        As you can evidently see from the table above, the incentive program already pays you more than
+                        your
+                        donation amount by the time you complete level 3, or by the time you have 39 marketers in your
+                        team.
+                        By the time you reach the end of level 5, the program will be incentivising you with an amount
+                        which
+                        is more than ten times the amount you are donating to iGen. Simply put, a R5,000 donation to
+                        iGen on a
+                        monthly basis has the potential to help you generate over R50,000 per month through the
+                        Expansior
+                        incentive program. <b>This is indeed incontrovertible
+                            proof that
+                            blessed is the hand that gives than the one that takes.</b>
+                    </p>
+                </div>
+
+
+            </div>
+        </div>
     </div>
-
+    <script src="./js/incentiveplan.js"></script>
+    <script src="./js/handlebars.min.js"></script>
 </body>
 
 </html>
+
+<!-- <table style="width:100%">
+    <tr>
+        <th>Level</th>
+        <th>Referrals</th>
+        <th>Incentive per referral</th>
+        <th>Incentive per Level</th>
+        <th>Total Income (per month)</th>
+    <tr>
+        <td> 1</td>
+        <td>3</td>
+        <td>3.04</td>
+        <td>9.12</td>
+        <td>9.12</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table> -->

@@ -71,6 +71,30 @@ document.addEventListener('DOMContentLoaded', function () {
             income3: "1,778.40",
             income4: "5,472.00",
             income5: "16,552.80",
+        },
+        {
+            incentivePerReferral: 91.20,
+            ipl1: 273.60,
+            ipl2: 820.80,
+            ipl3: "2,462.40",
+            ipl4: "7,387.20",
+            ipl5: "22,161.60",
+            income2: "1, 094.40",
+            income3: "3,556.80",
+            income4: "10,944.00",
+            income5: "33,105.60",
+        },
+        {
+            incentivePerReferral = 152,
+            ipl1: 456,
+            ipl2: "1,368",
+            ipl3: "4,104",
+            ipl4: "12,312",
+            ipl5: "36,936",
+            income2: "1,824",
+            income3: "5,928",
+            income4: "18,240",
+            income5: "55,176",
         }
 
     ])

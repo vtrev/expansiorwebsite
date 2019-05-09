@@ -19,9 +19,7 @@
     color: #00A887;
 }
 
-.parallax-container {
-    height: 650px;
-}
+
 
 .parallax-container .parallax img {
     width: 100%;
@@ -379,7 +377,7 @@ video {
 
 /* ============================================ Media Queries ============================================= */
 /* Mobile phone */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 720px) {
     .contact-footer {
         position: relative;
         left: 0% !important;
@@ -469,8 +467,14 @@ video {
 
 }
 
+
+
 /* ?? */
-@media screen and (max-width: 1025px) {
+@media screen and (min-width: 1030px) {
+    .parallax-container {
+        height: 720px;
+    }
+
 
     /* Making first letter of the links capital letter */
     nav ul li.nav-item {
@@ -487,11 +491,16 @@ video {
     nav ul a {
         color: gray;
     }
+}
 
+@media screen and (max-width: 1029px) and (min-width: 721px) {
+    .parallax-container {
+        height: 407px;
+    }
 
 }
 
-@media screen and (max-width: 1001px) and (min-width: 600px) {
+@media screen and (max-width: 1001px) and (min-width: px) {
     #footer {
         color: white !important;
         text-align: left;

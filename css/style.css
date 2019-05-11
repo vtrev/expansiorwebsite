@@ -253,12 +253,12 @@ tr {
 #main2 p,
 #intro-team p,
 #how-main p,
-#refer-main p {
+#refer-main p,
+#incentiveplan-section p {
     font-family: Overpass, Dosis;
-    color: #757575;
+    color: rgb(117, 117, 117);
     font-size: 16px;
     text-align: justify;
-    text-justify: inter-word;
 }
 
 #main2 h4,

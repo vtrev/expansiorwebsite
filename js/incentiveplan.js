@@ -14,6 +14,26 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
 
+    let moreFloeText = document.querySelector("#more-floe");
+    let moreFloeButton = document.querySelector("#redmore-floe");
+
+    moreFloeButton.addEventListener('click', () => {
+        if (moreFloeButton.innerHTML === "Read more here") {
+            moreFloeText.style.display = "inline-block";
+            moreFloeButton.innerHTML = "Read less";
+        } else {
+            moreFloeButton.innerHTML = "Read more here";
+            moreFloeText.style.display = "none";
+
+        }
+    })
+
+
+
+
+
+
+
     generateTables([{
             incentivePerReferral: 3.04,
             ipl1: 9.12,

@@ -3,6 +3,11 @@
 /*============================================ Global styles ==============================================*/
 
 
+.more-text {
+    display: none;
+}
+
+
 .incentive-levels img:first-of-type {
     position: relative;
     right: 5%;

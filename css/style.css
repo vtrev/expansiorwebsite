@@ -3,6 +3,11 @@
 /*============================================ Global styles ==============================================*/
 
 
+.incentive-levels img:first-of-type {
+    position: relative;
+    right: 5%;
+}
+
 .members-image img {
     max-height: 350px;
     border: 2px solid #00A887;
@@ -17,6 +22,9 @@
     font-size: 1.5rem;
 }
 
+.incentive-levels img {
+    width: 100%;
+}
 
 .spacer {
     height: 35px;

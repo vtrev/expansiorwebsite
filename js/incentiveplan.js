@@ -43,6 +43,76 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     })
 
+    let moreAsterText = document.querySelector("#more-aster");
+    let moreAsterButton = document.querySelector("#readmore-aster");
+    console.log(moreAsterButton);
+
+    moreAsterButton.addEventListener('click', () => {
+        if (moreAsterButton.innerHTML === "Read more here") {
+            moreAsterText.style.display = "inline-block";
+            moreAsterButton.innerHTML = "Read less";
+        } else {
+            moreAsterButton.innerHTML = "Read more here";
+            moreAsterText.style.display = "none";
+
+        }
+    })
+
+    let moreAblaziaText = document.querySelector("#more-ablazia");
+    let moreAblaziaButton = document.querySelector("#readmore-ablazia");
+    moreAblaziaButton.addEventListener('click', () => {
+        if (moreAblaziaButton.innerHTML === "Read more here") {
+            moreAblaziaText.style.display = "inline-block";
+            moreAblaziaButton.innerHTML = "Read less";
+        } else {
+            moreAblaziaButton.innerHTML = "Read more here";
+            moreAblaziaText.style.display = "none";
+
+        }
+    })
+
+
+
+    let moreJasperText = document.querySelector("#more-jasper");
+    let moreJasperButton = document.querySelector("#readmore-jasper");
+    moreJasperButton.addEventListener('click', () => {
+        if (moreJasperButton.innerHTML === "Read more here") {
+            moreJasperText.style.display = "inline-block";
+            moreJasperButton.innerHTML = "Read less";
+        } else {
+            moreJasperButton.innerHTML = "Read more here";
+            moreJasperText.style.display = "none";
+
+        }
+    })
+
+    let moreEnblastText = document.querySelector("#more-enblast");
+    let moreEnblastButton = document.querySelector("#readmore-enblast");
+    moreEnblastButton.addEventListener('click', () => {
+        if (moreEnblastButton.innerHTML === "Read more here") {
+            moreEnblastText.style.display = "inline-block";
+            moreEnblastButton.innerHTML = "Read less";
+        } else {
+            moreEnblastButton.innerHTML = "Read more here";
+            moreEnblastText.style.display = "none";
+
+        }
+    })
+
+    let moreSiriusText = document.querySelector("#more-sirius");
+    let moreSiriusButton = document.querySelector("#readmore-sirius");
+    moreSiriusButton.addEventListener('click', () => {
+        if (moreSiriusButton.innerHTML === "Read more here") {
+            moreSiriusText.style.display = "inline-block";
+            moreSiriusButton.innerHTML = "Read less";
+        } else {
+            moreSiriusButton.innerHTML = "Read more here";
+            moreSiriusText.style.display = "none";
+
+        }
+    })
+
+
 
 
 

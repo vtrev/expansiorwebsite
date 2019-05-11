@@ -8,14 +8,13 @@ document.addEventListener('DOMContentLoaded', function () {
             let tableTemplateSource = document.getElementById("table-template").innerHTML;
             let tableTemplate = Handlebars.compile(tableTemplateSource);
             let tableHTML = tableTemplate(tablesData[i]);
-            console.log(tableHTML);
             tableElement.innerHTML = tableHTML;
         }
     }
 
 
     let moreFloeText = document.querySelector("#more-floe");
-    let moreFloeButton = document.querySelector("#redmore-floe");
+    let moreFloeButton = document.querySelector("#readmore-floe");
 
     moreFloeButton.addEventListener('click', () => {
         if (moreFloeButton.innerHTML === "Read more here") {
@@ -24,6 +23,22 @@ document.addEventListener('DOMContentLoaded', function () {
         } else {
             moreFloeButton.innerHTML = "Read more here";
             moreFloeText.style.display = "none";
+
+        }
+    })
+
+
+    let moreBlazeText = document.querySelector("#more-blaze");
+    let moreBlazeButton = document.querySelector("#readmore-blaze");
+    console.log(moreBlazeButton);
+
+    moreBlazeButton.addEventListener('click', () => {
+        if (moreBlazeButton.innerHTML === "Read more here") {
+            moreBlazeText.style.display = "inline-block";
+            moreBlazeButton.innerHTML = "Read less";
+        } else {
+            moreBlazeButton.innerHTML = "Read more here";
+            moreBlazeText.style.display = "none";
 
         }
     })

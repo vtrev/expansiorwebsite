@@ -2,9 +2,17 @@
 
 /*============================================ Global styles ==============================================*/
 
+.show-table {
+    display: none;
+}
 
 .more-text {
     display: none;
+}
+
+#incentiveplan-section table {
+    width: 70%;
+    text-align: center;
 }
 
 
@@ -413,6 +421,25 @@ video {
 /* ============================================ Media Queries ============================================= */
 /* Mobile phone */
 @media only screen and (max-width: 720px) {
+
+    .show-table {
+        display: block;
+    }
+
+    #table0,
+    #table1,
+    #table2,
+    #table3,
+    #table4,
+    #table5,
+    #table6 {
+        display: none;
+    }
+
+    #incentiveplan-section table {
+        width: 320px;
+    }
+
     .contact-footer {
         position: relative;
         left: 0% !important;
@@ -504,11 +531,12 @@ video {
 
 
 
-/* ?? */
 @media screen and (min-width: 1600px) {
     .parallax-container {
         height: 620px;
     }
+
+
 
 
     /* Making first letter of the links capital letter */
@@ -529,6 +557,10 @@ video {
 }
 
 @media screen and (max-width: 1029px) and (min-width: 721px) {
+    #incentiveplan-section table {
+        width: 90%;
+    }
+
     .parallax-container {
         height: 390px;
     }

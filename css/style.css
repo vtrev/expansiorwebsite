@@ -39,7 +39,7 @@
 .expansior-green,
 #main b,
 #contact-form .input-field .prefix {
-    color: #00A887;
+    color: #00A887 !important;
 }
 
 #incentiveplan-section table,
@@ -505,9 +505,9 @@ video {
 
 
 /* ?? */
-@media screen and (min-width: 1030px) {
+@media screen and (min-width: 1600px) {
     .parallax-container {
-        height: 720px;
+        height: 620px;
     }
 
 
@@ -530,7 +530,7 @@ video {
 
 @media screen and (max-width: 1029px) and (min-width: 721px) {
     .parallax-container {
-        height: 407px;
+        height: 390px;
     }
 
 }
